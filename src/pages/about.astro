@@ -1,0 +1,33 @@
+---
+import AboutHeroImage from '../assets/placeholder-about.jpg';
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+	title="About the Digest"
+	description="Web3 Digest — automated news on crypto, blockchain, and digital-asset regulation."
+	pubDate={new Date('2026-03-30')}
+	heroImage={AboutHeroImage}
+>
+	<p>
+		Web3 Digest is an automated digest of news on crypto markets, blockchain,
+		and digital-asset regulation, including MiCA compliance. This blog collects, analyzes,
+		and publishes reviews without manual involvement.
+	</p>
+
+	<p>
+		The project was built as part of the <strong>Claude Code Basics</strong> course. Over
+		eight sessions, the blog evolves from an empty template to a fully automated
+		pipeline, where Claude Code finds news, writes articles, generates covers,
+		and deploys to Vercel.
+	</p>
+
+	<h2>Editorial Policy</h2>
+
+	<ul>
+		<li><strong>Topics:</strong> crypto, blockchain, web3, DeFi, MiCA, developer tools.</li>
+		<li><strong>Style:</strong> concise, informative, no marketing language.</li>
+		<li><strong>Audience:</strong> developers and product managers.</li>
+		<li><strong>Format:</strong> title, description (2-3 sentences), body (300-500 words), source link.</li>
+	</ul>
+</Layout>
