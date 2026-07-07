@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# astroblog capstone: PreToolUse-хук, фаза 08. Блокирует git push в master без флага CAPSTONE_ALLOW_MAIN_PUSH=1.
+# astroblog capstone: PreToolUse-хук блокирует git push в master без флага CAPSTONE_ALLOW_MAIN_PUSH=1.
 
 set -euo pipefail
 
