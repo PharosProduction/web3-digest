@@ -1,7 +1,5 @@
 # CLAUDE.md
 
-Автоматический дайджест на Astro + Vercel.
-
 ## Критичные правила
 
 @.claude/rules/git.md
